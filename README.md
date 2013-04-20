@@ -42,4 +42,4 @@ For the script to work the column *Anime Title* has to be the first on your list
 Todo
 ----
 * Automatically detect the position of the title and progress column.
-* Provide a JSONP proxy where people can register a handle and manage their entries.txt so that you only have to install the user script and register for the service instead of hosting the proxy on your own.
+* Provide a JSONP proxy where people can register a handle and manage their entries.json so that you only have to install the user script and register for the service instead of hosting the proxy on your own.
