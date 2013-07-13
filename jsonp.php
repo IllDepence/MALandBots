@@ -12,13 +12,7 @@ foreach($entries as $e) {
 
 $packlists = array();
 foreach($urls as $u) {
-	$matches = array();
-	$host = '';
-	$path = '';
-	preg_match('/^.+?\//', $u, $matches);
-	$host = substr($matches[0], 0, -1);
-	$path = substr($u, strlen($host));
-	$packlists[$u] = getSite($host, $path);
+	$packlists[$u] = getSite($u);
 	}
 
 $series = array();

@@ -10,7 +10,7 @@
 
 // ==/UserScript==
 
-var mab_location = 'https://46.223.55.110:3739/srv/malandbots/';
+var mab_location = 'https://85.216.97.223:3739/srv/malandbots/';
 localStorage.setItem('mab_location', mab_location);
 var url = mab_location + 'mab.js';
 var headID = document.getElementsByTagName("head")[0];
