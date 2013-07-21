@@ -26,7 +26,7 @@ foreach($entries as $key => $e) {
 	$lastEp = 0;
 	foreach($matches[0] as $m) {
 		$mtch_ep = array();
-		$ptrn_ep = '/'.$e->packlist_title.'.+?[0-9]{2}/';
+		$ptrn_ep = '/'.$e->packlist_title.'[^\[]+?[0-9]{2}/';
 		preg_match($ptrn_ep, $m, $mtch_ep);
 		$ep_pre = substr($mtch_ep[0], -2);
 		$ep = (substr($ep_pre, 0, 1) == '0' ? substr($ep_pre, 1) : $ep_pre);
